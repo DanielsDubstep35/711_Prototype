@@ -1,0 +1,11 @@
+{
+    "homepage_title": "Next.jsのブログ",
+    "homepage_description": "この例は、Next-translateを使用してNext.jsで構築された多言語ブログを示しています",
+    "food_section": "私たちのスナック、グラブ、おいしい温かい食べ物は、いつでもすぐに食べられます。",
+    "Food": "食べ物",
+    "Drinks": "飲み物",
+    "Download": "私たちのアプリをダウンロードしてください",
+    "download_section": "ダウンロード中",
+    "Contact": "連絡しましょう",
+    "contact_section": "私たちと一緒に次のプロジェクトを始める準備はできましたか？電話またはメールでご連絡いただければ、できるだけ早くご連絡いたします。"
+}
