@@ -2,30 +2,37 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Open up your terminal, and change into a directory where you want the files from this repository to be
 
 ```bash
-npm run dev
-# or
-yarn dev
+cd (YOUR DIRECTORY GOES HERE)
 ```
 
-*** Before you use 
+Then, run the git pull command associated with this repository and the local machine. If its not working, try copying the following command:
 
 ```bash
-npm run dev
+git init
+git remote add origin https://github.com/DanielsDubstep35/711_Prototype.git
+git pull origin main
 ```
-you need to install node package manager
 
-run:
+You should see all the files from the repository in your directory. Next, Run the command:
 
 ```bash
 npm install
 ```
 
-first.
+This will install the dependencies and packages needed to get the website up and running
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After that, Run the command:
+
+```bash
+npm run dev
+```
+
+This will run the server on your local machine.
+
+Finally, Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
