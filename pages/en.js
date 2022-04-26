@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router';
 import useTranslation from 'next-translate/useTranslation'
 import NavigationBar from '../components/NavBars/en';
-import PageFooter from '../components/PageFooters/page-footer';
+import PageFooter from '../components/PageFooters/en';
 
 export default function Home() {
   const router = useRouter()

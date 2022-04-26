@@ -3,8 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router';
 import useTranslation from 'next-translate/useTranslation'
-import NavigationBar from '../components/NavBars/en';
-import PageFooter from '../components/PageFooters/page-footer';
+import NavigationBar from '../components/NavBars/fr';
+import PageFooter from '../components/PageFooters/fr';
 
 export default function Home() {
   const router = useRouter()
@@ -37,17 +37,17 @@ export default function Home() {
               {t('Body1_Special_offers_just_for_you')}
             </p>
             <div className="">
-              <a className="p-2 font-bold text-center bg-[#147350] hover:bg-green-600 whitespace-nowrap text-white w-auto h-10 absolute rounded-3xl hover:translate-y-2 ease duration-700">
+              <a className="p-2 font-bold text-center bg-yellow-500 hover:bg-green-600 whitespace-nowrap text-white w-auto h-10 absolute rounded-3xl hover:translate-y-2 ease duration-700">
                 {t('Body1_View_All_Promotions')}
               </a>
             </div>
             <div className="py-32 justify-between flex">
               <div className="inline-flex border-[1px] active:bg-blue-800 border-gray-500 w-28 h-28"><Image layout="intrinsic" src={"/Images/en/Food/food1_Offers.png"} alt="Offers1" width={112} height={112} /></div>
-              <div className="inline-flex border-[1px] active:bg-red-800 border-gray-500 w-28 h-28"><Image layout="intrinsic" src={"/Images/en/Food/food2_Offers.png"} alt="Offers2" width={112} height={112} /></div>
-              <div className="inline-flex border-[1px] active:bg-[#147350] border-gray-500 w-28 h-28"><Image layout="intrinsic" src={"/Images/en/Food/food3_Offers.png"} alt="Offers3" width={112} height={112} /></div>
+              <div className="inline-flex border-[1px] active:bg-white border-gray-500 w-28 h-28"><Image layout="intrinsic" src={"/Images/en/Food/food2_Offers.png"} alt="Offers2" width={112} height={112} /></div>
+              <div className="inline-flex border-[1px] active:bg-red-700 border-gray-500 w-28 h-28"><Image layout="intrinsic" src={"/Images/en/Food/food3_Offers.png"} alt="Offers3" width={112} height={112} /></div>
             </div>
           </div>
-          <div className="bg-[#147350] w-3/5 mx-auto h-full px-60 pt-16 pb-4 text-center">
+          <div className="bg-yellow-500 w-3/5 mx-auto h-full px-60 pt-16 pb-4 text-center">
             <div className="p-2">
               <Image layout="intrinsic" src={"/Images/en/Food/food1_Offers_big.webp"} alt="Offers1" width={400} height={400} />
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
                 <p className="pb-4">
                   {t('Body2_GetExclusiveDeals_BonusPointsFuelRewards_and_more')}
                 </p>
-                <a className="inline-flex mx-2 px-8 lexend py-2 bg-[#147350] hover:bg-green-600 text-white w-auto h-10 rounded-3xl hover:translate-y-2 ease duration-700">
+                <a className="inline-flex mx-2 px-8 lexend py-2 bg-yellow-500 hover:bg-green-600 text-white w-auto h-10 rounded-3xl hover:translate-y-2 ease duration-700">
                   {t('Body2_Get_theApp')}
                 </a>
                 <a className="inline-flex mx-2 px-8 lexend py-2 bg-gray-700 hover:bg-gray-500 text-white w-auto h-10 rounded-3xl hover:translate-y-2 ease duration-700">
@@ -118,13 +118,13 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="px-8 py-16 bg-[#147350] text-black">
+        <div className="px-8 py-16 bg-white text-black">
           <div className="font-serif overflow-auto text-center lexend text-white">
             <p>{t('Body4_StoreLocator')}</p>
           </div>
           <div className="flex font-serif h-12 overflow-auto mx-auto px-4 justify-center">
             <Image src={"/location.svg"} alt="location logo 2" width={16} height={16} className="text-center"/>
-            <input type="search" className="text-base font-normal transition ease-in-out text-gray-700 bg-[#147350] border-b-2 border-solid outline-none">
+            <input type="search" className="text-base font-normal transition ease-in-out text-gray-700 bg-yellow-500 border-b-2 border-solid outline-none">
               
             </input>
             {/* Button with arrow */}
